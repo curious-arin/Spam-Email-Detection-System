@@ -1,15 +1,22 @@
 # Spam Email Detection System 📧
 
-A **Machine Learning and NLP-based project** that helps users identify whether an email is **Spam or Ham (Legit)** before interacting with it.
+## 🙂 Overview
 
-## 🛡️ Industry Domain
-**Cybersecurity**
+This project focuses on detecting spam emails using Machine Learning and Natural Language Processing (NLP). By analyzing email content and textual patterns, I built a classification model to identify whether an email is Spam or Ham (Legitimate) before users interact with it.
 
-## 🤨 Problem Statement
-Users receive unwanted, suspicious, and potentially fraudulent emails every day. Identifying spam manually can be difficult and may expose users to scams, phishing attempts, or malicious content. An automated system can help users detect suspicious emails quickly.
+*The goal is to help users identify suspicious emails, reduce exposure to unwanted messages and potential scams, and improve email safety through automated classification.*
 
-## 🎯 Objective
-Developed a machine learning-based system that analyzes email content and predicts whether an email is **Spam or Legit**, helping users make safer decisions before opening or interacting with suspicious messages.
+-----
+
+## 💡 Problem Statement & Business Impact
+
+* Users receive unwanted, suspicious, and potentially fraudulent emails, making manual spam identification difficult and time-consuming.
+* Spam and phishing emails can expose users to scams, malicious links, data theft, and other potential threats.
+* Email classification depends on textual patterns, word frequencies, message length, and other content-related features that help distinguish spam from legitimate messages.
+* **Goal:** Develop a machine learning classification model that predicts whether an email is Spam or Ham (Legitimate) by analyzing its textual content using NLP techniques.
+* **Business value:** Automated spam detection helps filter unwanted emails, reduce exposure to suspicious messages, improve user experience, and support safer digital communication.
+
+-----
 
 ## 🧠 Tech Stack
 * **Python**
@@ -18,6 +25,8 @@ Developed a machine learning-based system that analyzes email content and predic
 * **NLP**
 * **Matplotlib & Seaborn**
 * **Streamlit**
+
+-----
 
 ## 📊 Data Visualization
 1. **Ham vs Spam email distribution**
@@ -47,6 +56,7 @@ Developed a machine learning-based system that analyzes email content and predic
 9. **Top 30 spam words in data**
 <img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/9_top_30_spam_message.png" width="100%">
 
+-----
 
 ## 🤖 Machine Learning Models
 * **Logistic Regression**
@@ -54,6 +64,8 @@ Developed a machine learning-based system that analyzes email content and predic
 * **Naive Bayes**
 * **Support Vector Machine**
 * **Random Forest**
+
+-----
 
 ## 🔄 Project Workflow
 
@@ -81,7 +93,9 @@ Streamlit Deployment
 Spam / Legit Prediction
 ```
 
-# ⚖️ Model Selection & Optimization
+-----
+
+## ⚖️ Model Selection & Optimization
 
 As spam detection involves a trade-off between **precision and recall**, the models were evaluated using different optimization objectives.
 
@@ -102,9 +116,9 @@ As spam detection involves a trade-off between **precision and recall**, the mod
 * Optimizing only for precision made some models to have significantly lower recall and caused them to miss more spam emails.
 * Therefore, precision alone was not sufficient for final model selection.
 
----
+-----
 
-# F1-Score-Based Optimization
+## F1-Score-Based Optimization
 
 * To achieve a better balance between **precision and recall**, The next hyperparameter tuning was performed using the **F1-score**.
 
@@ -141,7 +155,9 @@ Random Forest achieved the best balance between precision and recall during F1-s
 * **125** Spam emails were correctly detected.
 * **13** Spam emails were missed.
 
-# 📊 Precision vs Recall Trade-off
+-----
+
+## 📊 Precision vs Recall Trade-off
 
 ```text
 Precision Optimization
@@ -157,9 +173,8 @@ F1-Score Optimization
 Better Precision-Recall Balance
 ```
 
-# 🏁 Conclusion
+-----
+
+## 🏁 Conclusion
 * Firstly, i performed hyperparameter tuning using **precision** to minimize false-positive spam classifications. But, precision-only optimization caused some models to have significantly lower recall. For example, Random Forest achieved **100% precision but only 15.9% recall** during this optimization.
 * Then i performed hyperparameter tuning using **F1-score** to balance precision and recall. after F1-based optimization, **Random Forest** achieved **94.69% precision, 90.57% recall, and 92.59% F1-score** on the test data. based on this balance, **Random Forest was selected as the final model and deployed using Streamlit**.
-
-# 🏭 Real-World Benefits
-If integrated into an email platform, the system can automatically filter unwanted emails, reduce inbox junk, minimize incorrect spam classifications, save users' time, and provide an initial layer of protection against potentially suspicious messages.
