@@ -7,7 +7,7 @@ This project focuses on detecting spam emails using Machine Learning and Natural
 *The goal is to help users identify suspicious emails, reduce exposure to unwanted messages and potential scams, and improve email safety through automated classification.*
 
 -----
-
+  
 ## 💡 Problem Statement & Business Impact
 
 * Users receive unwanted, suspicious, and potentially fraudulent emails, making manual spam identification difficult and time-consuming.
