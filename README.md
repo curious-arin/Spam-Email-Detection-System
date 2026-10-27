@@ -30,31 +30,31 @@ This project focuses on detecting spam emails using Machine Learning and Natural
 
 ## 📊 Data Visualization
 1. **Ham vs Spam email distribution**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/1_ham_vs_spam_distributions.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/1_ham_vs_spam_distributions.png" width="100%">
 
 2. **Character distribution in data**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/2_spam_vs_not_spam_character_distributions.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/2_spam_vs_not_spam_character_distributions.png" width="100%">
 
 3. **Word distribution in data**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/3_spam_vs_not_spam_word_distributions.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/3_spam_vs_not_spam_word_distributions.png" width="100%">
 
 4. **Pairplot distribution of data**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/4_pairplot_distributions.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/4_pairplot_distributions.png" width="100%">
 
 5. **Correlation heatmap of data**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/5_correlation_heatmap.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/5_correlation_heatmap.png" width="100%">
 
 6. **Spam message word cloud**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/6_spam_word_cloud.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/6_spam_word_cloud.png" width="100%">
 
 7. **Ham message word cloud**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/7_ham_word_cloud.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/7_ham_word_cloud.png" width="100%">
 
 8. **Top 30 ham words in data**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/8_top_30_ham_message.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/8_top_30_ham_message.png" width="100%">
 
 9. **Top 30 spam words in data**
-<img src="https://github.com/neuralarin/Spam-Email-Detection-System/blob/main/images/9_top_30_spam_message.png" width="100%">
+<img src="https://github.com/curious-arin/Spam-Email-Detection-System/blob/main/images/9_top_30_spam_message.png" width="100%">
 
 -----
 
